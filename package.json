@@ -1,14 +1,14 @@
 {
+  "name": "express-practice-01",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node steps/step4-params.js",
+    "dev": "node --watch steps/step4-params.js" 
+  },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  },
-  "scripts": {
-    "dev": "node --watch steps/step4-params.js",
-    "start": "node steps/step4-params.js"
-  },
-  "type": "module"
+  }
 }
+
